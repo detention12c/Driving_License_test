@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <style>
+     .topnav {
+  background-color: #1E90FF;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.a{
+  text-align: center;
+}
+.myform{
+    border-radius: 3px;
+  padding-left: 10px;
+  background-color: #B0E0E6;
+  padding-right: 100px;
+  margin-right:100px;
+  margin-left:100px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+  }
+  body img{
+    width: 100px;
+    height: 100px;
+}
+</style>
+    </head>
+    <body>
+      <img src="driving-licence-logo-card-hand-260nw-779228884.webp">
+    <div class="topnav">
+  <a class="active" href="#Home">Home</a>
+  <a href="#About Us">About Us</a>
+  <a href="#contact">Contact Us</a>
+  <a href="#login">Login</a>
+</div>
+  <marquee style="font-size: 20px">Bharat series (BH-series) vehicle registration has been enabled in Vahan.</marquee>
+  <div class="a">
+    <h2>Apply for Driving License</h2>
+</div>
+<div class="myform">
+<form action="driver.php" method="POST">  
+  
+  <label for="first"> Firstname: </label>         
+  <input type="text"  id ="first" name="yourname" size="15" /> <br> <br>  
+  <label for="middle"> Surname: </label>     
+  <input type="text" id="middle" name="surname" size="15"/> <br> <br>   
+  <div class="mrmiss">
+    Mr<input type="radio" value="mr" name="mr">
+    Mrs.<input type="radio" value="mrs" name="mr">
+    Miss<input type="radio" value="miss" name="mr">
+    Ms<input type="radio" value="ms" name="mr">
+</div><br><br>
+<div class="date">
+  <label for="dateofbirth">Date of Birth:</label>
+  <input type="date" name="dateofbirth" id="datebirth">
+</div><br><br>
+    
+  <label for="gender">   
+   
+  Gender :  
+  </label><br>  
+  <input type="radio" name="gender" value="male"/> Male <br>  
+  <input type="radio" name="gender" value="female"/> Female <br>  
+  <input type="radio" name="gender" value="other"/> Other  
+  <br>  
+  <br>  
+    
+  <label>   
+  Phone :  
+  </label for="myphone">  
+  <input type="text" name="phone" value="country code"  value="+91" size="2"/>   
+  <input type="text" name="phone" value="phone" size="10"/> <br> <br>  
+  Address  
+  <br>  
+  <textarea cols="80" rows="5" value="address" name="add">  
+  </textarea>  
+  <br> <br> 
+  Applied for Driving Licenese before  
+  </label for="valid"><br>  
+  <input type="radio" name="valid" value="yes"/> Yes <br>  
+  <input type="radio" name="valid" value="no"/> No <br>  
+  <br>  
+  <br>   
+ 
+  <label for="mymail">Email:</label>  
+  <input type="email" id="mail" name="myemail"/> <br>    
+  <br> <br>  
+
+ 
+<label for="test">Choose Date for Driving's License Test:</label>
+<input type="date" id="test" name="mytest"><br><br>
+  
+  <div class="submit">
+    <input type="submit" value="Submit"/>
+  </div>
+
+  </form>  
+</div>
+
+    </body>
+</html>

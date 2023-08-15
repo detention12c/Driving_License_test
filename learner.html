@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Learning Form</title>
+      <link rel="stylesheet" href="second.css">
+    </head>
+    <body>
+      <img src="driving-licence-logo-card-hand-260nw-779228884.webp">
+    <div class="topnav">
+  <a class="active" href="#Home">Home</a>
+  <a href="#About Us">About Us</a>
+  <a href="#contact">Contact Us</a>
+  <a href="#login">Login</a>
+</div>
+  <marquee style="font-size: 20px">Bharat series (BH-series) vehicle registration has been enabled in Vahan.</marquee>
+  <div class="a">
+    <h2>Apply for Learner License</h2>
+</div>
+<div class="form">
+<form action="learner.php" method="post">  
+  
+  <label> Firstname </label>         
+  <input type="text" name="firstname" size="15"/> <br> <br>  
+  <label> Surname: </label>     
+  <input type="text" name="surname" size="15"/> <br> <br>  
+  <label for="gender">
+  Gender :  
+  </label><br>  
+  <input type="radio" id="male" name="gender"/> Male <br>  
+  <input type="radio" id="female" name="gender"/> Female <br>  
+  <input type="radio" id="other" name="gender"/> Other  
+  <br>  
+  <br>  
+    
+  <label>   
+  Phone :  
+  </label>  
+  <input type="text" name="mycountry"  value="+91" size="2"/>   
+  <input type="text" name="phone" size="10"/> <br> <br>  
+  Address  
+  <br>  
+  <textarea cols="80" rows="5" value="address" name="myaddress">  
+  </textarea>  
+  <br> <br> 
+  Applied for Learner Licenese before  
+  </label><br>  
+  <input type="radio"  id="yes" name="apply"/> Yes <br>  
+  <input type="radio"  id="no" name="apply"/> No <br>  
+  <br>  
+  <br>   
+ 
+  Email:  
+  <input type="email" id="email" name="myemail"/> <br>    
+  <br> <br>  
+
+ 
+Choose Date for Learner's License Test:
+<input type="date" id="test" name="mytest"><br><br>
+  
+  <div class="submit">
+    <input type="submit" value="Submit"/>  
+</div>
+  </form>  
+</div>
+
+    </body>
+</html>
